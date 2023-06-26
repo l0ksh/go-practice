@@ -20,4 +20,7 @@ func main() {
 
 	g := 27
 	fmt.Println(g)
+	
+	var l,m,n,o int = 3,4,6,8
+	fmt.Println(l,m,n,o)
 }
