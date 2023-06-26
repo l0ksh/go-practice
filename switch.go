@@ -33,6 +33,10 @@ func main() {
 		fmt.Println("It's after noon")
 		fmt.Println(t.Hour())
 	}
+/*
+In Go, whatAmI := func(i interface{}) is a function declaration. The func keyword indicates that the following code is a function definition. The whatAmI is the name of the function, and the i interface{} is the parameter type of the function. The interface{} type is the empty interface, which means that it can hold any type of value.
+*/
+
 	
 	whatAmI := func(i interface{}) {
 		switch t := i.(type) {
